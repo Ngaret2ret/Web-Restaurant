@@ -63,7 +63,7 @@ const Home = {
 
   async afterRender() {
     const restaurants = await DataSource.allResto();
-    
+
     const restaurantsContainer = document.querySelector('#restoCards');
 
     if (restaurants === undefined) {
@@ -71,7 +71,7 @@ const Home = {
       return;
     }
 
-    restaurants.forEach((restaurant) => {      
+    restaurants.forEach((restaurant) => {
       restaurantsContainer.innerHTML += createRestoItemTemplate(restaurant);
     });
   },
