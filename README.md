@@ -16,8 +16,8 @@ Berikut beberapa kriteria submission yang harus diselesaikan agar project ini da
      + Batal menyukai restaurant tersebut
 
 3. Image Optimization
-   - Melakukan kompresi terhadap gambar hero yang digunakan. Ukuran gambar harus dibawah 200kb
-   - Menerapkan teknik image responsive pada gambar hero. Gambar pada layar seluler dan desktop harus berbeda
+   - Melakukan kompresi terhadap gambar hero yang digunakan. Ukuran gambar harus dibawah 200kb ✔️
+   - Menerapkan teknik image responsive pada gambar hero. Gambar pada layar seluler dan desktop harus berbeda ✔️
    - Menerapkan teknik lazy loading pada gambar daftar restaurant yang ditampilkan.
 
 4. Bundle Optimization
