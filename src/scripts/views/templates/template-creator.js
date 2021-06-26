@@ -1,4 +1,6 @@
 import CONFIG from '../../globals/config';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const createCategories = (categories) => {
   let allCategory = '';
@@ -22,8 +24,10 @@ const createMenu = (menus) => {
 const createRestoItemTemplate = (restaurant) => {
   const shortDescription = restaurant.description.substr(0, 240);
   return ` <article class="post-item">
-            <img class="post-item-thumbnail"
-                src=${CONFIG.SMALL_RES + restaurant.pictureId}
+            <img class="post-item-thumbnail lazyload"
+                width="300"
+                height="400"
+                data-src=${CONFIG.SMALL_RES + restaurant.pictureId}
                 alt="${restaurant.name}"
                 crossorigin="anonymous">
             <div class="post-item-content"> 
