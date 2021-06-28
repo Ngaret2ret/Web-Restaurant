@@ -15,12 +15,12 @@ const Home = {
       <div class="promo-thumbs">
         <div class="promo-thumb">
           <h3>Discount Utama</h3>
-          <img src="./icons/discount-tag.png" alt="Gambar Discount" crossorigin="anonymous">
+          <img width="150" height="150" src="./icons/discount-tag.png" alt="Gambar Discount" crossorigin="anonymous">
           <p>Discount <b>20%</b> jika anda melakukan transaksi di atas <b>Rp 400.000</b></p>
         </div>
         <div class="promo-thumb">
           <h3>Discount Tambahan</h3>
-          <img src="./icons/vip-card.png" alt="Gambar Kartu Member" crossorigin="anonymous">
+          <img width="150" height="150" src="./icons/vip-card.png" alt="Gambar Kartu Member" crossorigin="anonymous">
           <p>Discount tambahan <b>5%</b> jika anda mendaftar sebagai <b>member</b></p>
         </div>
       </div>
@@ -44,13 +44,13 @@ const Home = {
           </div>        
         </div>
         <div class="form-group">
-          <label for="">Jumlah Kursi</label>
-          <input type="number" name="jumlah" class="form-input" placeholder="Misal: 1"/>
+          <label for="jumlah">Jumlah Kursi</label>
+          <input type="number" id="jumlah" name="jumlah" class="form-input" placeholder="Misal: 1"/>
         </div>
         
         <div class="form-group">
-          <label for="">Tanggal Booking</label>
-          <input type="date" name="tanggal" class="form-input" />
+          <label for="tanggal">Tanggal Booking</label>
+          <input type="date" name="tanggal" id="tanggal" class="form-input" />
         </div>
 
         <div class="form-button">

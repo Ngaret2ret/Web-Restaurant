@@ -13,8 +13,8 @@ module.exports = {
   },
   optimization: {
     splitChunks: {
-      chunks: 'all',
-      minSize: 15000,
+      chunks: 'async',
+      minSize: 20000,
       maxSize: 70000,
       minChunks: 1,
       maxAsyncRequests: 30,
@@ -87,6 +87,6 @@ module.exports = {
       }],
       overrideExtension: true,
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
   ],
 };
