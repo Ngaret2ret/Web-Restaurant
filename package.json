@@ -6,7 +6,7 @@
   "scripts": {
     "start-dev": "webpack-dev-server --host 0.0.0.0 --port 8081 --config webpack.dev.js",
     "build-image": "node sharp.js",
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js && node sharp.js",
     "test": "karma start",
     "start": "node server.js"
   },
